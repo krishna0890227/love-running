@@ -94,6 +94,12 @@ main {
   justify-content: space-evenly;
   list-style-type:none;
 }
+#social-networks i{
+  font-size: 160%;
+  justify-content: space-evenly;
+  color: #3a3a3a;
+
+}
 
 @media screen and (min-width:768px) {
   /* Header */
