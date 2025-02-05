@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <title>Love-Running</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
 </head>
 
 <body>
@@ -33,7 +33,40 @@
 
     </Header>
     <!-- Main body-->
-    <main>Signup  Content</main>
+    <main>
+        <section id="signup">
+            <h3> Let's get you signed up! <i class="fa-solid fa-heart-pulse"></i></h3>
+            <form method="POST" id="signup-form" action="https://formdump.codeinstitute.net">
+
+                <label for="firstname">First Name:</label>
+                <input id="firstname" type="text" class="text-input" required> <br>
+                <label for="lastname">Last Name:</label>
+                <input id="lastname" type="text" class="text-input" required> <br>
+                <label for="emailadd">Email Address:</label>
+                <input id="emailadd" type="email" class="text-input"> <br>
+                <div>
+                    <h3> Running Preferences: </h3>
+                    <div class="radio-buttons">
+                        <div>
+                            <input type="radio" id="road" value="road" name="running">
+                            <label for="road">Road</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="trail" value="trail" name="running">
+                            <label for="trail">Trail</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="both" value="both" name="running">
+                            <label for="both">Both</label>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="Join-class"> Let's Run </button>
+
+            </form>
+        </section>
+    </main>
     <!--footer-->
     <footer>
         <ul id="social-networks">
